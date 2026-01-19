@@ -2,9 +2,15 @@
     box-sizing: border-box; 
 }
 
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6
+}
+
 img{
     width: 100%;
     height: auto;
+    box-shadow: 0 0 30px #333;
 }
 
 header, main, footer{
@@ -26,13 +32,20 @@ main{
 }
 
 h1{
+    margin: 10px;
     text-align: center;
+}
+
+h2{
+    border-bottom: 1px solid #222;
 }
 
 section{
     margin: 2em 0;
     background-color:#dddddd;
     padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    font-size: .9rem;
 }
 
 section h2{
