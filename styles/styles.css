@@ -5,20 +5,21 @@
     --primary-text-color: #271257;
     --secondary-text-color: #1d1b1b;
     --heading-font: 'Montserrat', Helvetica, sans-serif; 
-    --body-font: 'Open Sans', sans-serif;
+    /* --body-font: 'Open Sans', sans-serif; */
+    --body-font: Roboto, Arial, sans-serif;
     --padding: 1rem;
-    --border: 1px solid rgb(0 0 0 / 0.1);
+    --border: 1px solid rgba(124, 44, 227, 0.1);
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box; 
-    text-align: center;
 }
 
 body { 
     display: flex;
     flex-direction: column;
-    align-items: center;
     font-size: 16px;
     font-family: var(--body-font);
     padding-top: 100px;
@@ -26,7 +27,7 @@ body {
 
 main{
     max-width: 860px;
-    text-align: center;
+   
     padding-top: 10px;
 }
 
@@ -40,7 +41,7 @@ nav {
     /* padding: 10px; */
     z-index: 100;
     display: flex;
-    align-items: center;
+   
     justify-content: center;
 }
 
@@ -60,22 +61,26 @@ h1 {
 }
 
 main img {
-    width: 200px; 
+    width: 150px; 
     height: auto;
     border: var(--border);
     padding: 2px; 
     box-shadow: 0 0 30px gray; 
+    float: right;
+    margin: 0 0 1rem 1rem
 }
 
 p { 
+    margin: 1rem;
     position: relative; /*relative positioning*/
     top: 10px;
-    left: 20px;
 }
 
 aside{
-    width: 52rem;
+    width: 15rem;
     margin: .5rem;
+    /* text-align: center; */
+    position: relative;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: .5rem;
     background-color: var(--primary-background-color);
@@ -85,12 +90,33 @@ aside{
 aside img{
     width: 200px;
     height: auto;
+    display: block;
+}
+
+aside h2{
+    position: absolute;
+    top: 0.1px;
+    left: 86px;
+    /* transform: translateX(-50%); */
 }
 
 footer{
     margin-top: 15px; 
     text-align: center;
     border-top: 1px solid #000; 
+}
+
+/* Class Selectors */
+.box{ 
+    margin:1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #eee;
+    color:#000;
+}
+
+.indent {
+    padding-left: 2rem;
 }
 
 
