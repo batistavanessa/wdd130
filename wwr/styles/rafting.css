@@ -1,16 +1,29 @@
 :root {
     --primary-color: #233225; /*?-cor principal*/
     --accent1-color: #fefefe; /*#264653; dark slate blue-cor de destaque ???????*/
-    --accent2-color: #272525;
+    --accent2-color: #858585;  
     --accent3-color: #FFD700;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
+    /* --accent2-color: #272525;  */
+    /* --accent2-color: #867f7f; */
 }
 
 *{
     margin: 0;
     padding: 0; 
     box-sizing: border-box;
+}
+
+body{
+    /* display: block; */
+    font-family: var(--body-font);
+    color: var(--accent2-color);
+} 
+
+header, main, footer {
+    width: 840px; 
+    margin: 0 auto;
 }
 
 header {
@@ -25,8 +38,10 @@ header {
 }
 
 header img {
-    max-width: 180px;
+    max-width: 100%;
     height: auto;
+    float: left;
+    margin: 1px;
 }
 
 nav ul {
@@ -48,17 +63,6 @@ h1 h2 {
 
 h2{
     color: var(--accent2-color);
-}
-
-body{
-    /* display: block; */
-    font-family: var(--body-font);
-    color: var(--accent2-color);
-} 
-
-header, main, footer {
-    width: 840px; 
-    margin: 0 auto;
 }
 
 h1 {
@@ -83,6 +87,9 @@ h1, h2 {
 
 .hero {
     position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
 }
 
 .hero h1 {
@@ -90,7 +97,8 @@ h1, h2 {
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
-    color: var(--accent3-color);
+    /* color: var(--accent3-color); */
+    color: #ffff00;
 }
 
 .hero article { 
@@ -109,6 +117,7 @@ h1, h2 {
     display: block;
     width: 100%;
     height: auto;
+    /* object-fit: cover;- faz imagem preencher o container....mas não funcionou pq o heigh está como auto como solicita a atividade=) */
 }
 
 .hero article img { 
@@ -132,9 +141,12 @@ nav, section, article {
 
 footer {
     border-top: 1px solid #ccc; /*linha*/
+    /* position: fixed;
+    bottom: 0; */
     color: var(--accent2-color);
     text-align: center;    
     font-size: 0.8rem; 
+    
 }
 
 p { 
