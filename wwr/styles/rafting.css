@@ -119,16 +119,17 @@ nav, p, section, article {
 }
 
 footer {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #ccc; /*linha*/
 }
 
 footer p {
     text-align: center;
+    font-size: 0.8rem; 
 }
 
 .footer{
     text-align: center;
-    padding: 10px;
+    /* padding: 1px; */
     background-color: var(--neutral);
 }
 
@@ -136,12 +137,12 @@ footer p {
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 5px;
+    /* margin-top: 1px; */
 }
 
 .socialmedia img{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     object-fit: contain;
 }
 
