@@ -1,6 +1,6 @@
 :root {
     --primary-color: #233225; /*?-cor principal*/
-    --secondary-color: #3A3A3A; /* Dark Gray-cor de apoio */
+    /* --secondary-color: #3A3A3A; Dark Gray-cor de apoio */
     --accent1-color: #fefefe; /*#264653; dark slate blue-cor de destaque ???????*/
     --accent2-color: #272525;
     --accent3-color: #FFD700;
@@ -139,6 +139,11 @@ nav, section, article {
 
 footer {
     border-top: 1px solid #ccc; /*linha*/
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    text-align: center;
+    opacity: 0.9;
+    
 }
 
 footer p {
@@ -151,10 +156,10 @@ p {
     padding: 0;
 }
 
-.footer{
-    text-align: center;
-    background-color: var(--neutral);
-}
+/* .footer{
+    
+    background-color: rgb(35, 50, 37);;
+} */
 
 .socialmedia{
     display: flex;
