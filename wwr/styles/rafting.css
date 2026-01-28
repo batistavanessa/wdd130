@@ -139,8 +139,7 @@ nav, section, article {
 
 footer {
     border-top: 1px solid #ccc; /*linha*/
-    background-color: var(--primary-color);
-    color: var(--accent1-color);
+    color: var(--accent2-color);
     text-align: center;
     opacity: 0.9;
     
