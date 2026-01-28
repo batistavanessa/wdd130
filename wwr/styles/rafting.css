@@ -1,8 +1,9 @@
 :root {
-    --primary-color: #364938; /*?-cor principal*/
+    --primary-color: #233225; /*?-cor principal*/
     --secondary-color: #3A3A3A; /* Dark Gray-cor de apoio */
     --accent1-color: #fefefe; /*#264653; dark slate blue-cor de destaque ???????*/
     --accent2-color: #272525;
+    --accent3-color: #FFD700;
     --neutral: #f5f7f8; /*Off-white-cor - cores neutras*/
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -24,7 +25,7 @@ header {
     justify-content: flex-start; /*logo a esquerda, menu ao lado */
     padding: 20px;
     gap: 50px;
-    /* height: 100px; */
+    opacity: 0.9;
 }
 
 header img {
@@ -47,7 +48,16 @@ nav ul li a {
 
 }
 
-h1,h2{
+h1 {
+    font-family: var(--heading-font);
+    
+}
+.title-name {
+    color: var(--accent3-color);
+
+}
+
+h2{
     font-family: var(--heading-font);
     color: var(--accent2-color);
 }
