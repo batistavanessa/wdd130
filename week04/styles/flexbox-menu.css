@@ -17,6 +17,14 @@ nav ul {
     align-items: center;
 }
 
+nav li {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 nav a {
     display: block;
     color: #fff;
