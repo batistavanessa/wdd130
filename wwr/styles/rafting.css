@@ -1,13 +1,9 @@
 :root {
-    /* --primary-color: #233225; ?-cor principal */
-    --accent1-color: #fefefe; /*#264653; dark slate blue-cor de destaque ???????*/
-    --accent2-color: #858585;  
-    --accent3-color: #FFD700;
+    --accent1-color: rgb(254, 254, 254); /*#264653; dark slate blue-cor de destaque ???????*/
+    --accent2-color: #3b3838;  
+    --accent3-color: rgb(255, 217, 0);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
-    /* --accent2-color: #272525;  */
-    /* --accent2-color: #867f7f; */
-    /*backgroun color gainsboro	and foreground(text) darkslategrey*/
     
 }
 
@@ -61,7 +57,7 @@ header {
 .navigation a:hover {
     color:rgb(34, 154, 154); 
     text-decoration: underline;
-}
+ }
 
 /* header img {
     max-width: 100%;
@@ -102,13 +98,12 @@ h1, h2 {
     text-align: center;
     opacity: 0.7; 
     background-color: var(--accent2-color);
-    /* color: #fff; */
     color: var(--accent1-color);
 }
 
 .title-main{
     background-color: var(--accent2-color);
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .hero {
@@ -124,7 +119,7 @@ h1, h2 {
     left: 50%;
     transform: translateX(-50%);
     /* color: var(--accent3-color); */
-    color: #fffffd;
+    color: rgb(255, 255, 253);
 }
 
 .hero article { 
@@ -134,7 +129,7 @@ h1, h2 {
     text-align: justify;
     padding: 10px;
     background-color: rgba(39, 37, 37, 0.6);
-    color: #fff;
+    color: rgb(255, 255, 255);
     transform: translateX(-.1%);
     box-sizing: border-box;
 }
@@ -166,7 +161,7 @@ nav, section, article {
 }
 
 footer {
-    border-top: 1px solid #ccc; /*linha*/
+    border-top: 1px solid rgb(204, 204, 204); /*linha*/
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: center;
