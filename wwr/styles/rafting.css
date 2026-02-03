@@ -1,7 +1,7 @@
 :root {
-    --accent1-color: rgb(254, 254, 254); /*#264653; dark slate blue-cor de destaque ???????*/
+    --accent1-color: #fefefe; /*#264653; dark slate blue-cor de destaque ???????*/
     --accent2-color: #575454;  
-    --accent3-color: rgb(255, 217, 0);
+    --accent3-color: #ffd900;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
     
@@ -55,7 +55,7 @@ header {
 }
 
 .navigation a:hover {
-    color:rgb(34, 154, 154); 
+    color:#229a9a; 
     text-decoration: underline;
  }
 
@@ -103,7 +103,7 @@ h1, h2 {
 
 .title-main{
     background-color: var(--accent2-color);
-    color: rgb(255, 255, 255);
+    color: #ffffff;
 }
 
 .hero {
@@ -119,7 +119,7 @@ h1, h2 {
     left: 50%;
     transform: translateX(-50%);
     /* color: var(--accent3-color); */
-    color: rgb(255, 255, 253);
+    color: #fffffd;
 }
 
 .hero article { 
@@ -128,8 +128,8 @@ h1, h2 {
     width: 96%;
     text-align: justify;
     padding: 10px;
-    background-color: rgba(39, 37, 37, 0.6);
-    color: rgb(255, 255, 255);
+    background-color: #27252599;
+    color: #ffffff;
     transform: translateX(-.1%);
     box-sizing: border-box;
 }
@@ -161,7 +161,7 @@ nav, section, article {
 }
 
 footer {
-    border-top: 1px solid rgb(204, 204, 204); /*linha*/
+    border-top: 1px solid #cccccc; /*linha*/
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: center;
