@@ -65,7 +65,7 @@ header {
     text-align: center;
 }
 
-.address strong { 
+.strong-group { 
     display: block;
     margin: 16px;   
     justify-items: center;
@@ -80,7 +80,7 @@ header {
 .contact iframe {
     flex: 1; 
     width: 15%;
-    height: 260px;
+    height: 300px;
 }
 
 
@@ -88,6 +88,11 @@ header {
     display: flex; 
     flex-direction: column;
     gap: 15px;
+}
+
+.box h2 {
+    text-align: center;
+
 }
 
 .information-group {
@@ -121,8 +126,8 @@ button {
     color: #fff;
     border: none;
     border-radius: .5rem;
-    padding: .75rem;
-    font-size: 1.2rem;
+    padding: .5rem;
+    font-size: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
 }
 
