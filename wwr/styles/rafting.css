@@ -268,6 +268,9 @@ footer p {
 .contact iframe { 
     width: 100%;
     height: auto;
+    box-shadow: 0 4px 8px rgba(69, 66, 66, 0.2);
+    border: 1px solid #ded7d7;
+    /* padding: 10px; */
 }
 
 .box {
