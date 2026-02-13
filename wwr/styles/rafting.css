@@ -79,13 +79,12 @@ header {
 } */
 
 h1, h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-family: var(--heading-font);   
 }
 
 h1, h2 {
     width: 100%; 
-    padding: 16px;
     text-align: center;
     opacity: 0.7; 
     background-color: var(--accent2-color);
@@ -226,11 +225,11 @@ footer p {
 .awaits img { 
     width: 100%;
     height: auto;
-    padding-top: 10px
+    /* padding-top: 10px */
 }
 
 .awaits figcaption { 
-    margin-top: 5px; 
+    /* margin-top: 5px;  */
     text-align: center;
 }
 
@@ -354,9 +353,8 @@ button:hover {
     max-width: 250px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    padding: 10px;
+    padding: 7px;
     background-color: #f9f9f7;
-   
 }
 
 .awaits-contact img { 
