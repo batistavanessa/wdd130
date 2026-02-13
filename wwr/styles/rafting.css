@@ -2,6 +2,7 @@
     --accent1-color: #fefefe; /*#264653; dark slate blue-cor de destaque ???????*/
     --accent2-color: #575454;  
     --accent3-color: #ffd900;
+    --accent4-color: #222121;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
     
@@ -110,6 +111,7 @@ h1, h2 {
     transform: translateX(-50%);
     /* color: var(--accent3-color); */
     color: #fffffd;
+    /* opacity: 0.5; */
 }
 
 .hero article { 
@@ -118,6 +120,7 @@ h1, h2 {
     width: 96%;
     text-align: justify;
     padding: 10px;
+    /* background-color: var(--accent2-color); */
     background-color: #27252599;
     color: #ffffff;
     transform: translateX(-.1%);
@@ -237,7 +240,7 @@ footer p {
 /* ***Contact Us***  */
 
 .address h1, .awaits-contact-title { 
-    background-color: rgb(6, 5, 5);
+    background-color: var(--accent4-color);
     padding: 8px;
 }
 
@@ -263,7 +266,7 @@ footer p {
 .contact iframe { 
     width: 100%;
     height: auto;
-    box-shadow: 0 4px 8px rgba(69, 66, 66, 0.2);
+    box-shadow: 0 4px 8px #45424233;
     border: 1px solid #ded7d7;
     /* padding: 10px; */
 }
@@ -316,7 +319,7 @@ button {
     display: block;
     width: 50%;
     margin: 1rem auto;
-    background-color: #edcb09;
+    background-color: var(--accent3-color);
     color: #1e1e1e;
     border: none;
     border-radius: .5rem;
@@ -354,7 +357,7 @@ button:hover {
 .awaits-contact figure { 
     width: 100%; 
     max-width: 250px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px #00000033;
     border-radius: 10px;
     padding: 7px;
     background-color: #f9f9f7;
