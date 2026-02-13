@@ -254,15 +254,20 @@ footer p {
 
 .contact {
     display: flex;
-    gap: 30px;
-    align-items: flex-start;
-    margin-top: -28px;
+    gap: 50px;
+    align-items: stretch;
+    /* margin-top: -28px; */
 }
 
-.contact iframe {
+.contact iframe, .contact .box {
     flex: 1; 
-    width: 15%;
-    height: 350px;
+    /* width: 15%;
+    height: 350px; */
+}
+
+.contact iframe { 
+    width: 100%;
+    height: auto;
 }
 
 .box {
