@@ -81,10 +81,7 @@ header {
 
 h1, h2 {
     font-size: 1.8rem;
-    font-family: var(--heading-font);   
-}
-
-h1, h2 {
+    font-family: var(--heading-font);
     width: 100%; 
     text-align: center;
     opacity: 0.7; 
