@@ -238,6 +238,7 @@ footer p {
 
 .address h1, .awaits-contact-title { 
     background-color: var(--accent4-color);
+    color: #ffffff;
     padding: 8px;
 }
 
