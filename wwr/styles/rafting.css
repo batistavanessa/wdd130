@@ -313,18 +313,21 @@ footer p {
 }
 
 button { 
-    margin: 1rem;
-    background-color: rgb(59, 59, 65);
-    color: #fff;
+    display: block;
+    width: 50%;
+    margin: 1rem auto;
+    background-color: #edcb09;
+    color: #1e1e1e;
     border: none;
     border-radius: .5rem;
     padding: .5rem;
     font-size: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
+   
 }
 
 button:hover {
-    background-color: #ffd900;
+    background-color: #c9ad00;
 }
 
 .awaits-contact {
