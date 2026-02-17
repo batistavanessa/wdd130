@@ -318,7 +318,6 @@ button {
     padding: .5rem;
     font-size: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
-
 }
 
 button:hover {
@@ -437,28 +436,105 @@ button:hover {
     color: white;
 }
 
+.btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 200px;
+    background-color: var(--accent3-color);
+    color: #1e1e1e;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    /* font-weight: bold; */
+    /* margin-left: auto; */
+    /* margin-right: -5px; */
+    /* margin-bottom: auto; */
+    /* margin-top: -50px; */
+    margin: -60px 680px;
+
+}
+
+.btn:hover {
+    background-color: #c9ad00;
+}
+
+main .awaits-group {
+    margin-top: -150px;
+}
+
 .awaits-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     justify-items: center;
-    background-color: #ebe5e5;
-    /* padding-bottom: 100px; */
-}
-
-/* .awaits-contact fieldset h2 {
-    grid-column: 1/-1;
-} */
-
-.awaits-contact div {
+    padding-bottom: 20px;
     text-align: center;
 }
 
-/* .awaits-grid figure {
+.awaits-card {
     width: 100%;
-    max-width: 250px;
-    box-shadow: 0 4px 8px #00000033;
+    height: auto;
+    /* max-width: 250px; */
+    box-shadow: 0 5px 15px #00000033;
     border-radius: 10px;
-    padding: 7px;
-    background-color: #f9f9f7;
+    padding: 20px;
+    background-color: #ebebeb;
+    border: 1px solid #cfcdcd;
+    letter-spacing: 1.6px;
+}
+
+.awaits-card img {
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.awaits-card h3 {
+    margin: 10px;
+}
+
+/*Table*/
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+
+th,
+td {
+    border: 1px solid rgb(150 150 150);
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead tr {
+    background-color: #F8F27C;
+    /* background-color: var(--accent3-color); */
+}
+
+/* .color {
+    background-color: var(--accent3-color);
 } */
+
+.title {
+    font-size: 23px;
+    margin: 3px auto 10px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.subtitle {
+    font-size: 15px;
+    margin: 3px 240px 20px;
+    text-align: center;
+    line-height: 1.6;
+}

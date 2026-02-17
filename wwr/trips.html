@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trips | White Water Rafting</title>
-    <meta name="description"
-      content="Page of trips from Rafting website project developed as part of the WDD130 course.">
+    <meta name="description" content="Explore our rafting trips, learn about each adventure, view pricing and difficulty levels, and book your unforgettable experience with
+      just one click!">
     <meta name="author" content="Vanessa Aparecida Gomes B Silva">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -27,16 +27,14 @@
     <main>
         <div class="hero">
             <img src="images/book-trips.jpg" alt="White Water Rafting">
-            <h1 class="title-trip">
-                <a href="contact.html">Book a Trip</a>
-            </h1>
+            <!-- <h1 class="title-trip"> -->
+            <a href="contact.html" class="btn">Book a Trip</a>
         </div>
-
         <section class="awaits-group">
             <div class="awaits-grid">
                 <figure class="awaits-card">
-                    <img src="images/rafting-awaits1.jpg" alt="Our Team">
-                    <p>Calm river</p>
+                    <img src="images/calmriver-trips.jpg" alt="Calm River">
+                    <h3>Calm River</h3>
                     <figcaption>Perfect for beginners, this calm river trip offers a safe and
                         enjoyable
                         introduction to rafting.
@@ -46,10 +44,9 @@
                         experienced guides ensure comfort, safety, and fun throughout the journey.
                     </figcaption>
                 </figure>
-
                 <figure class="awaits-card">
-                    <img src="images/rafting-awaits2.jpg" alt="Our Team">
-                    <p>Rapid river</p>
+                    <img src="images/wildriver-trips.jpg" alt="Wild River">
+                    <h3>Wild River</h3>
                     <figcaption>Perfect for thrill seekers, this wild river trip delivers an
                         adrenaline-filled rafting experience.
                         Powerful rapids and breathtaking landscapes create an intense and
@@ -59,18 +56,84 @@
                         wave.
                     </figcaption>
                 </figure>
-
                 <figure class="awaits-card">
-                    <img src="images/float-awaits3.jpg" alt="Our Team">
-                    <p>Day Use</p>
+                    <img src="images/dayuse-trips.jpg" alt="Day Use">
+                    <h3>Day Use</h3>
                     <figcaption>Enjoy a full day by the river with unlimited access to all our
                         adventures. From calm waters to
                         exciting rapids and relaxing family floats, you can experience it all in one
                         unforgettable day. Fun,
-                        safety, and outdoor excitement for everyone.</figcaption>
+                        safety, and outdoor excitement for everyone.
+                    </figcaption>
                 </figure>
             </div>
         </section>
+
+        <form class="trip-table">
+            <p class="title">Available Trips</p>
+            <p class="subtitle">Compare all our trips and choose the adventure that's right for you.
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Trip</th>
+                        <th>Difficulty</th>
+                        <th>Duration</th>
+                        <th>Distance</th>
+                        <th>Class</th>
+                        <th>Age</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Calm River</th>
+                        <td>Beginner</td>
+                        <td>2 hours</td>
+                        <td>5 Km</td>
+                        <td>I-II</td>
+                        <td>8+</td>
+                        <td>$60</td>
+                    </tr>
+                    <tr>
+                        <td>Wild River</th>
+                        <td>Advanced</td>
+                        <td>4 hours</td>
+                        <td>12 Km</td>
+                        <td>IV-V</td>
+                        <td>16+</td>
+                        <td>$130</td>
+                    </tr>
+                    <tr>
+                        <td>Family Float</th>
+                        <td>All Levels</td>
+                        <td>2 hours</td>
+                        <td>----</td>
+                        <td>----</td>
+                        <td>Free</td>
+                        <td>40</td>
+                    </tr>
+                    <tr>
+                        <td>Camping</th>
+                        <td>All Levels</td>
+                        <td>12 hours</td>
+                        <td>----</td>
+                        <td>----</td>
+                        <td>Free</td>
+                        <td>$200</td>
+                    </tr>
+                    <tr>
+                        <td>Day Use</th>
+                        <td>All Levels</td>
+                        <td>8 hours</td>
+                        <td>----</td>
+                        <td>----</td>
+                        <td>Free</td>
+                        <td>$180</td>
+                    </tr>
+                </tbody>
+            </table>
+
 
     </main>
 
@@ -87,7 +150,6 @@
                 <img src="images/whatsapp.jpg" alt="Whatsapp Icon">
             </a>
         </nav>
-
     </footer>
 </body>
 
